@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CodeBlock</class>
+ <widget class="QWidget" name="CodeBlock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>138</width>
+    <height>54</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-radius: 8px;
+border-width:2px;
+color:rgb(255,255,255);
+background-color: rgb(255, 60, 187);</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">padding-left:20px;
+padding-right:20px;</string>
+     </property>
+     <property name="text">
+      <string>START</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../BlockScript.qrc">
+       <normaloff>:/icon.ico</normaloff>:/icon.ico</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../BlockScript.qrc"/>
+ </resources>
+ <connections/>
+</ui>
